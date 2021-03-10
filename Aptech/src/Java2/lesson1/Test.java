@@ -5,13 +5,19 @@
  */
 package Java2.lesson1;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  *
  * @author MyPC
  */
 public class Test {
     public static void main(String[] args) {
-        String a = "Nguyen Tien Dat";
-        System.out.println(a);
+        Map<String, Object> maps = new HashMap<>();
+        maps.put("Name", "Nguyen Tien Dat");
+        maps.put("Tuoi", 18);
+        System.out.println(maps);
+        System.out.println("Ten: " + maps.get("Name"));
     }
 }
