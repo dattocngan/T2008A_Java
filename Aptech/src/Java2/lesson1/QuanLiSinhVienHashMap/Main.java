@@ -29,7 +29,7 @@ public class Main {
                     for (int i = 0; i < select; i++) {
                         Student student = new Student();
                         student.input();
-                        studentList.put(student.rollNo, student);
+                        studentList.put(student.rollNo, student);// Khi goi den object student thi no se tra ve ham toString cua doi tuong
                     }
                     break;
                 case 2:
