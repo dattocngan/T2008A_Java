@@ -5,13 +5,14 @@
  */
 package Java2.lesson2.QuanLyThongTinSinhVienBangFile;
 
+import java.io.Serializable;
 import java.util.Scanner;
 
 /**
  *
  * @author MyPC
  */
-public class Student {
+public class Student implements Serializable{
     String name, address, id;
     int age;
     float gpa;
