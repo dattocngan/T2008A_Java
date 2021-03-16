@@ -27,13 +27,13 @@ public class Test {
     }
     
     static void readData(){
-        List<Student> studentList = new ArrayList<>();
+        List<Student> abcd = new ArrayList<>();
         FileInputStream fis = null;
         ObjectInputStream ois = null;
         try {
             fis = new FileInputStream("student.dat");
             ois = new ObjectInputStream(fis);
-            studentList = (List<Student>) ois.readObject();
+            abcd = (List<Student>) ois.readObject();
             //Khi muon lam voi tung object
 //            while(true){
 //                Object obj = ois.readObject();
@@ -61,7 +61,7 @@ public class Test {
             }
             
         }
-        studentList.forEach((student) -> {
+        abcd.forEach((student) -> {
             System.out.println(student);
         });
     }
