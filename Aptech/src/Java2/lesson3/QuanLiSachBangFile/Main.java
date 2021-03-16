@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.zip.DeflaterInputStream;
 
 /**
  *
@@ -57,6 +58,7 @@ public class Main {
                     saveTxt(bookList);
                     break;
                 case 6:
+                    deflaterFile();
                     break;
                 case 7:
                     readObj();
@@ -157,6 +159,54 @@ public class Main {
         }
         for (Book book : abcd) {
             System.out.println(book);
+        }
+    }
+    
+    public static void deflaterFile(){
+        FileInputStream fis = null;
+        DeflaterInputStream dis = null;
+        FileOutputStream fos = null;
+        try {
+            fis = new FileInputStream("data.obj");
+            dis = new DeflaterInputStream(fis);
+
+            fos = new FileOutputStream("data.dfl");
+
+            int code;
+            while ((code = dis.read()) != -1) {
+                fos.write(code);
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(Book.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(Book.class.getName()).log(Level.SEVERE, null, ex);
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+
+                } catch (IOException ex) {
+                    Logger.getLogger(Book.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+
+            if (dis != null) {
+                try {
+                    dis.close();
+
+                } catch (IOException ex) {
+                    Logger.getLogger(Book.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+
+            if (fos != null) {
+                try {
+                    fos.close();
+
+                } catch (IOException ex) {
+                    Logger.getLogger(Book.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
         }
     }
 }
