@@ -21,16 +21,7 @@ public class BaiTap {
         return true;
     }
     public static void main(String[] args) {
-        int n;
-        int []a;
-        Scanner scan = new Scanner(System.in);
-        n = scan.nextInt();
-        a = new int[n];
-        for( int i = 0 ; i < n ; i++ ){
-            a[i] = scan.nextInt();
-        }
-        for( int i = 0 ; i < n ; i++ ){
-            if( IntCheck( a[i] ) ) System.out.println( a[i] );
-        }
+        String a ="56a";
+        System.out.println(Integer.parseInt((String)a));
     }
 }
