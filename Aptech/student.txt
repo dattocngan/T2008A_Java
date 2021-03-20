@@ -1,2 +1,0 @@
-1,Dat,19,Ha Noi,3.8
-2,Lan Huong,20,Hai Duong,4.0
