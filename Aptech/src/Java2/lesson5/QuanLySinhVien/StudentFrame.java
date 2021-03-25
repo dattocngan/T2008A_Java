@@ -243,13 +243,23 @@ public class StudentFrame extends javax.swing.JFrame {
 
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
-        Student student = new Student();
-        student.name = name.getText();
-        student.age = Integer.parseInt(age.getText());
-        student.gender = genderBox.getSelectedItem().toString();
-        student.email = email.getText();
-        student.phoneNumber = phoneNumber.getText();
-        studentList.add(student);
+        if(index == -1 ){
+            Student student = new Student();
+            student.name = name.getText();
+            student.age = Integer.parseInt(age.getText());
+            student.gender = genderBox.getSelectedItem().toString();
+            student.email = email.getText();
+            student.phoneNumber = phoneNumber.getText();
+            studentList.add(student);
+        }else{
+            Student std = studentList.get(index);
+            std.name = name.getText();
+            std.age = Integer.parseInt(age.getText());
+            std.gender = genderBox.getSelectedItem().toString();
+            std.email = email.getText();
+            std.phoneNumber = phoneNumber.getText();
+            index = -1;
+        }
         showData();
         btnResetActionPerformed(evt);
     }//GEN-LAST:event_btnSaveActionPerformed
