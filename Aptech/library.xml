@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<library>
+	<author-list>
+		
+        <author>
+			<nickname>dattcool</nickname>
+			<fullname>Nguyen Tien Dat</fullname>
+			<email>dattocngan@gmail.com</email>
+			<address>Ha Noi</address>
+			<birthday>18.04.2002</birthday>
+		</author>
+	</author-list>
+	<book-list>
+		
+        <book>
+			<title>Bi kip tan gai ho Nguyen</title>
+			<nickname>dattcool</nickname>
+			<nxb>Kim Dong</nxb>
+			<description>qua hay</description>
+		</book>
+	</book-list>
+</library>

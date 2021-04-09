@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+	<name>Truong Thi Lan Huong</name>
+	<gender>Nu</gender>
+	<birthday><![CDATA[02/03/2001]]></birthday>
+	<status>Hen ho voi nguoi code ra bai nay</status>
+	<interest>
+		<sport>Cau long</sport>
+		<game>Ban ca</game>
+		<music>
+			<us-uk>Positions, Blinding Lights</us-uk>
+			<v-pop>Cho minh em, Noi tinh yeu bat dau</v-pop>
+		</music>
+	</interest>
+	<program-language>C, HTML, CSS</program-language>
+	<learning-equipment>
+		<laptop>
+			<name>Macbook Pro</name>
+		</laptop>
+		<book-list>
+			<book>De men phieu luu ky</book>
+			<book>Co be ban diem</book>
+		</book-list>
+	</learning-equipment>
+</profile>

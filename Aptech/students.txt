@@ -1,4 +1,2 @@
-Nguyen Tien Dat,Nam,B20DCCN001,dattocngan@gmail.com,Hai Duong
-Truong Thi Lan Huong,Nu,B19DCCN001,truonglanhuong@gmail.com,Hai Duong
-Họ tên,giới tính,rollNo,email,địa chỉ
-Họ tên,giới tính,rollNo,email,địa chỉ
+B322,Nguyen Tien Dat,ha noi,0967962184
+b302d2,lan huong,hai duong,039293923
