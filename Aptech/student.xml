@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student-list>
+	<student>
+		<name>Truong Quang Anh123</name>
+		<gender>Nam</gender>
+		<rollno>B21DCCN001</rollno>
+		<email>quanganh@gmail.com</email>
+		<address>Hai Duong</address>
+	</student>
+	<student>
+		<name>Duong Quang Du</name>
+		<gender>Nam</gender>
+		<rollno>B20DCCN151</rollno>
+		<email>duongdu2k2@gmail.com</email>
+		<address>Vinh Phuc</address>
+	</student>
+	<student>
+		<name>Nguyen Tien Dat</name>
+		<gender>Nam</gender>
+		<rollno>B20DCCN001</rollno>
+		<email>datkhongchin184@gmail.com</email>
+		<address>Ha Noi</address>
+	</student>
+</student-list>

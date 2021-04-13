@@ -3,13 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/Main.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/PersonalFrame.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson6/QuanLySinhVien/StudentFrame.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/LearningEquipment.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/Personal.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/Interest.java</file>
-            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/PersonalAnalyse/PersonalParser.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson9/JSON/TongOn/Student.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson5/MainFrame.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson9/JSON/TongOn/StudentParser.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson5/BookModify.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson9/JSON/Product.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/LibraryParser.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson9/JSON/Main.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson6/QuanLySinhVien/Student.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson9/JSON/TongOn/StudentFrame.java</file>
+            <file>file:/C:/Users/MyPC/Documents/NetBeansProjects/Aptech/src/Java2/lesson8/MainXML.java</file>
         </group>
     </open-files>
 </project-private>
